@@ -1,0 +1,140 @@
+/* .header {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .display-button {
+    position: relative;
+  }
+  
+  .dropdown-trigger {
+    background-color: #fff;
+    color: black;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    cursor: pointer;
+    box-shadow: 1px 1px 2px;
+  }
+  
+  .dropdown-trigger svg {
+    width: 20px;
+    height: 20px;
+  }
+  
+  .dropdown-content {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    z-index: 1000;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 200px;
+  }
+  
+  .dropdown-content select {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+  }
+  
+  .grouping,
+  .sorting {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .grouping label,
+  .sorting label {
+    font-weight: normal;
+    margin-right: 40px;
+  }
+ */
+
+
+
+
+
+  .header {
+    padding: 16px;
+    background-color: #f4f5f8;
+  }
+  
+  .display-button {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-trigger {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    border: 1px solid #e0e0e0;
+    border-radius: 10px;
+    padding: 8px 12px;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    color: #333;
+    margin-bottom: 10px;
+    box-shadow: 1px 1px;
+  }
+  
+  .dropdown-trigger svg {
+    margin-right: 8px;
+  }
+  
+  .dropdown-content {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: white;
+    border: 1px solid #e0e0e0;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 16px 16px 12px;
+    z-index: 1000;
+    min-width: 220px;
+  }
+  
+  .grouping, .sorting {
+    margin-bottom: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .grouping label, .sorting label {
+    display: block;
+    font-size: 12px;
+    font-weight: bold;
+    color: #6b6f76;
+    margin-right: 40px;
+  }
+  
+  .grouping select, .sorting select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #e0e0e0;
+    border-radius: 4px;
+    background-color: white;
+    font-size: 14px;
+    color: #333;
+  }
+  
+  .grouping select:focus, .sorting select:focus {
+    outline: none;
+    border-color: #4094f7;
+  }
