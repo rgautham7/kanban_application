@@ -21,7 +21,7 @@ This project is a React-based Kanban board application that allows users to visu
 
 1. Clone the repository:
    ```
-   git clone https://github.com/your-username/kanban-board-app.git
+   git clone https://github.com/rgautham7/kanban_application.git
    ```
 
 2. Navigate to the project directory:
