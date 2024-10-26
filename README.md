@@ -37,3 +37,16 @@ This project is a React-based Kanban board application that allows users to visu
 ### Running the Application
 
 To start the development server:
+
+```
+npm run dev
+```
+
+Website URL - Deployed on Vercel
+
+https://kanban-application-9hpxfrplq-gauthams-projects-94597e21.vercel.app
+
+Website Image
+
+![image](https://github.com/user-attachments/assets/aa861dd1-5038-4f63-895b-0f8fb2afc418)
+
